@@ -1,5 +1,5 @@
 # FraudDetectivePy
-Python-based supervised machine learning project developed as the final project for INFO 6105
+Python-based supervised machine learning project developed as the final project for INFO 6105 (Data Science Eng Methods).
 
 ## Overview
 The goal of this project is twofold: first, to understand how an imbalanced dataset can impact the analysis and results of credit card fraud detection; and second, to evaluate the effectiveness of different classification models and techniques aimed at enhancing the accuracy and reliability of fraud detection systems.
@@ -28,6 +28,9 @@ The goal of this project is twofold: first, to understand how an imbalanced data
 1. Clone the repository: `git clone https://github.com/Faridghr/FraudDetectivePy.git`
 2. Navigate to the project directory: `cd FraudDetectivePy`
 3. Install dependencies: `pip install -r requirements.txt`
-4. Run the main script to preprocess data, train models, and evaluate performance: `src/FraudDetectivePy.ipynb`
+4. Download the dataset and extract it to the `dataset` folder.
+5. Run the main script to preprocess data, train models, and evaluate performance: `src/FraudDetectivePy.ipynb`
 
+## Acknowledgements
+The dataset used in this project was obtained from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?select=creditcard.csv).
 
